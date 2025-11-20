@@ -2,7 +2,7 @@
 import './App.css'
 //import Title component
 import ProductTab from './ProductTab.jsx';
-import Msgbox from './Msgbox.jsx';
+import Button from './Button.jsx';
 
 function Description(){
   return <h3>this is the description component</h3>
@@ -11,9 +11,9 @@ function Description(){
 function App() {
   return (
     <>
-    <Msgbox userName="Dipesh" textColor="green" />
-      <Msgbox userName="Dipesh" textColor="yellow" />
+     <h2>Blockbuster deals | Shop now</h2>
       <ProductTab />
+      <Button />
     </>
   )
 }
